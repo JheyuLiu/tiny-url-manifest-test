@@ -1,0 +1,8 @@
+app:
+  replicaCount: 3
+  image:
+    repo: jheyuliu/tiny-url-app
+    tag: latest
+  service:
+    type: NodePort
+    port: 80
